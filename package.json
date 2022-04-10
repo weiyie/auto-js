@@ -1,0 +1,27 @@
+{
+  "name": "auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src",
+  "scripts": {
+    "upload": "node tasker/upload2OSS.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weiyie/auto-js.git"
+  },
+  "author": "weiyie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weiyie/auto-js/issues"
+  },
+  "homepage": "https://github.com/weiyie/auto-js#readme",
+  "dependencies": {
+    "husky": "^7.0.4"
+  },
+  "husky": {
+    "hook": {
+      "pre-commit": "npm run upload"
+    }
+  }
+}
