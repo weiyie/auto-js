@@ -8,3 +8,4 @@
 
 files.removeDir('./utils/')
 console.log('first')
+console.log('12')
